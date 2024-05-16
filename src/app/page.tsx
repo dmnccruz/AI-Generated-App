@@ -1,6 +1,6 @@
 import { AiEvaluations } from "@/components/component/ai-evaluations";
-import Image from "next/image";
+import { UpdatedAiDashboard } from "@/components/component/updated-ai-dashboard";
 
 export default function Home() {
-  return <AiEvaluations />;
+  return <UpdatedAiDashboard />;
 }
